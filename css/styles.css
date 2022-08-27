@@ -34,7 +34,7 @@ ol {
     list-style: none;
 }
 
-.img {
+img {
     display: block;
     max-width: 100%;
     height: auto;
@@ -56,7 +56,8 @@ body {
 }
 
 .section {
-    margin-top: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .section-pudding {
@@ -271,7 +272,8 @@ span {
 
 .comand-flex {
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
+    justify-content: center;
 }
 
 .team {
@@ -299,7 +301,7 @@ span {
     text-align: center
 }
 
-.footer-container {
+footer {
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
@@ -321,10 +323,15 @@ span {
 }
 
 .adress-footer {
+    margin-bottom: 9px;
     color: #FFFFFF;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+}
+
+.mail-footer {
+    margin-bottom: 9px;
 }
 
 .mail-footer,
@@ -343,7 +350,12 @@ span {
     color: var(--secondary-text-color);
 }
 
+
 /* potrfolio */
+
+.page-header-portfolio {
+    border-bottom: 1px solid #ECECEC;;
+}
 
 .logo-footer {
     display: block;
@@ -358,7 +370,8 @@ span {
 .button-portfolio {
     font-family: var(--primary-text-color);
     background-color: #F5F4FA;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: 0px;
+    cursor: pointer;
     border-radius: 4px;
     height: 38px;
     line-height: 1.6;
@@ -407,9 +420,9 @@ button:active {
 
 .description-menu {
     padding: 20px 24px 20px 24px;
-    border-left: 1px;
-    border-right: 1px;
-    border-bottom: 1px;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
 }
 
 .list-general {
@@ -424,10 +437,15 @@ button:active {
 
 .icon {
     margin-right: 30px;
+    margin-bottom: 30px;
 }
 
 .icon:nth-child(3n) {
     margin-right: 0px;
+}
+
+.icon:nth-child(n+7) {
+    margin-bottom: 0px;
 }
 
 .list-general-link {
