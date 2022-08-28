@@ -55,7 +55,7 @@ body {
     padding-right: 15px;
 }
 
-.section {
+section {
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -302,9 +302,6 @@ span {
 }
 
 footer {
-    box-sizing: border-box;
-    margin-left: auto;
-    margin-right: auto;
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: #2F303A;
@@ -371,6 +368,7 @@ footer {
     font-family: var(--primary-text-color);
     background-color: #F5F4FA;
     border: 0px;
+    font-weight: 500;
     cursor: pointer;
     border-radius: 4px;
     height: 38px;
